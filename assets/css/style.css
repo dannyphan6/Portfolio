@@ -1,0 +1,26 @@
+header {
+    background: #2a607c;
+    color: white;
+    font-size: 25px;
+}
+
+span {
+    font-size: 20px;
+}
+
+li {
+    float: right;
+    display: inline;
+    width: 150px;
+    align-content: center;
+}
+
+.aboutme {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+    width: 3%;
+}
