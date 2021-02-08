@@ -1,26 +1,118 @@
-header {
-    background: #2a607c;
+/* changes background of header to turquoise with white text. Has a width that goes full screen, with font of Quicksand at 25px*/
+.header {
+    background: #22A39F;
+    width: 100%;
     color: white;
     font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
 }
 
-span {
-    font-size: 20px;
+/* applies to the whole navigation bar, with equal spacing between and same margin on the left & right side*/
+.list1 {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 90px;
+   margin-right: 90px;  
 }
 
-li {
-    float: right;
-    display: inline;
+/* applies padding to the list and letter spacing between letters*/
+.list1 li {
+    padding: 5px;
+    letter-spacing: .8px;
+}
+
+/* style being applied to 'Daniel Phan'*/
+.h1 {
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#span {
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#profile-pic {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
     width: 150px;
-    align-content: center;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px 10px;
 }
 
-.aboutme {
+.navbar {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar:hover {
+    color: beige;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.imgproj1 {
+    width: 40%;
+}
+.imgproj2 {
+    width: 44.3%;
+}
+
+.div2 {
+    background-color: beige;
+}
+
+hr {
+    border-top: 1px solid #eee;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#vert {
+    width: 1;
+    display: flex;
+}
+
+p {
+    line-height: 25px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 20px;
+    padding: 10px 0px;
+}
+
+.h2style {
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 15px;
+    padding: 5px 0px;
 }
 
-img {
-    border-radius: 50%;
-    width: 3%;
+.contact {
+    background-color: #5c5c5c;
+    color: white;
+    width: 100%;
 }
+
+
+form {
+    margin-top: 5px;
+    margin-left: 10px;
+    border-style: double;
+    border-width: 4px;
+}
+
+form label, input {
+    margin: 5px 10px;
+    padding: 10px;
+}
+

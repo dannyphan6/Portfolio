@@ -6,60 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>Daniel Phan's Portfolio</title>
 </head>
 
 <body>
-    <header class="header">
-        <h1>Daniel Phan: <br><span>Web Developer</span></h1>
-            <img src="./assets/images/profile-pic.png" alt="Profile Pic" id="profile-pic">
-        <nav>        
-            <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Skill Set</li>
-                <li>Contact</li>
+    <header>
+        <nav class="header">
+            <ul class="list1">
+                <li id="#nav-to-about" class="navbar">About Me</li>
+                <li id="#nav-to-skill" class="navbar">Skill Set</li>
+                <li id="#nav-to-proj" class="navbar">Projects</li>
+                <li id="#nav-to-contact" class="navbar">Contact</li>
             </ul>
         </nav>
     </header>
-    
-     <main>  
+
+    <main>
         <article>
             <section>
-                <h2 class="aboutme">About Me:</h2>
+            <h1 class="h1">Daniel Phan<br><span id="span">Web Developer</span></h1>
+            <hr>
+                <img src="./assets/images/website-profile-pic.png" alt="Profile Pic" id="profile-pic">
+                <h2 id="nav-to-about" class="h2style">About Me:</h2>
                 <p>
-                    Hello, my name is Daniel Phan. I'm currently attending a bootcamp for coding, to explore my creativity in the tech industry. I've always had a knack for building something and watch it come to life, as I graduated with a bachelor's in Mechanical Engineering. I love problem solving and finding ways to make things better. 
+                    Hello, my name is Daniel Phan. I'm currently attending a<br> bootcamp for coding, to explore my
+                    creativity in the<br> tech industry. I've always had a knack for building<br> something and
+                    watch it come to life, as I <br>graduated with a bachelor's in Mechanical Engineering. <br>I
+                    love problem solving and finding ways to make things<br> better.
+                </p>
+            <hr>
+            </section>
+            
+
+            <section>
+                <h2 id="nav-to-proj" class="h2style">Projects:</h2>
+                <p>
+                    Feel free to take a look at my latest projects here. [add link here]<br>
+                    <img class="imgproj1"
+                        src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/08/html-cheat-sheet.jpg">
+                    <img class="imgproj2" src="https://cdn.lynda.com/course/504266/504266-637347255094291567-16x9.jpg">
                 </p>
             </section>
-            <section>
-                <h2 class="aboutme">Projects:</h2>
-                <p>
-                    Feel free to take a look at my latest projects here. [add link here]
-                </p>
-            </section>
-            <section>
-                <h2 class="aboutme">Skill Set:</h2>
-                <p>
-                    As I begin my journey into becoming a full-stack developer, here's a list of languages that I'm proficient in:
+
+            <div class="div3">
+                <section>
+                    <h2 id="nav-to-skill" class="h2style">Skill Set:</h2>
+                    <p>
+                        As I begin my journey into becoming a full-stack developer, here's a list of languages that I'm
+                        proficient in:
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                     </ul>
-                </p>
-            </section>
+                    </p>
+                </section>
+            </div>
+
             <section>
-                <h2>Contact</h2>
-                <p>
-                    <ul>
-                        <li>First Name</li>
-                        <li>Last Name</li>
-                        <li>Phone Number</li>
-                        <li>Email</li>
-                    </ul>
-                </p>
+                <div class="contact">
+                    <h2 id="nav-to-contact" class="h2style">Contact:</h2>
+                    <p>
+                    <form>
+                        <label for="fname">First Name</label><br>
+                        <input type="text"><br>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text"><br>
+                        <label for="phone">Phone Number</label><br>
+                        <input type="text"><br>
+                        <label for="email">Email</label><br>
+                        <input type="text"><br>
+                    </form>
+                    </p>
+                </div>
             </section>
-        </article>    
+
+        </article>
     </main>
 </body>
+
 </html>
