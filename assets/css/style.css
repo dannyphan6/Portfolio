@@ -1,118 +1,145 @@
-/* changes background of header to turquoise with white text. Has a width that goes full screen, with font of Quicksand at 25px*/
-.header {
-    background: #22A39F;
+/* Style applies to the whole header */
+header {
+    background: rgb(66, 64, 64);
     width: 100%;
-    color: white;
-    font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-/* applies to the whole navigation bar, with equal spacing between and same margin on the left & right side*/
-.list1 {
-   display: flex;
-   justify-content: space-between;
-   margin-left: 90px;
-   margin-right: 90px;  
-}
-
-/* applies padding to the list and letter spacing between letters*/
-.list1 li {
-    padding: 5px;
-    letter-spacing: .8px;
-}
-
-/* style being applied to 'Daniel Phan'*/
-.h1 {
-    position: relative;
-    text-align: center;
-    font-weight: 500;
-    font-size: 40px;
-    font-family: 'Quicksand', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
-#span {
-    font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-#profile-pic {
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    padding: 5px 10px;
-}
-
-.navbar {
-    font-family: 'Quicksand', sans-serif;
-}
-
-.navbar:hover {
     color: beige;
-    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+section {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.h1 {
+    font-size: 50px;
+    position: relative;
+    margin-left: 10px;
+}
+
+/* Style applies to the list as a whole  */
+.nav {
+    display: flex;
+    justify-content: space-between;  
+    
+}
+
+/* Style applies to the navigation text  */
+.nav-text {
+    position: relative;
+    top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
+    font-weight: bold;
 }
 
-
-.imgproj1 {
-    width: 40%;
-}
-.imgproj2 {
-    width: 44.3%;
-}
-
-.div2 {
-    background-color: beige;
+.img1 {
+    width: 100%;
 }
 
 hr {
-    border-top: 1px solid #eee;
-    width: 50%;
+    border-top: 1px solid rgb(66, 64, 64);
+    width: 60.5%;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-#vert {
-    width: 1;
+.div1 {
     display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 1055px;
+    background-color: rgb(66, 64, 64);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
 }
 
-p {
-    line-height: 25px;
-    font-family: 'Quicksand', sans-serif;
+.img2 {
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.h2-about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 8px;
+    font-size: 40px;
+    color: beige;
+}
+
+.p-about-me {
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
     margin-left: 20px;
-    padding: 10px 0px;
+    margin-right: 10px;
+    line-height: 25px;
+    font-size: 20px;
 }
 
-.h2style {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 15px;
-    padding: 5px 0px;
+#hr {
+    border-top: 1px solid rgb(66, 64, 64);
+    width: 61%;
+    margin: 0 auto;
+    margin-top: 14px;
 }
 
-.contact {
-    background-color: #5c5c5c;
-    color: white;
-    width: 100%;
+.div2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 1055px;
+    background-color: rgb(66, 64, 64);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
 }
 
+.img3 {
+    border-radius: 50%;
+    margin: 35px;
+    
+}
+
+.h2-skill-set {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 8px;
+    font-size: 40px;
+    color: beige;
+}
 
 form {
     margin-top: 5px;
     margin-left: 10px;
     border-style: double;
     border-width: 4px;
+    width: 215px;
 }
 
 form label, input {
     margin: 5px 10px;
     padding: 10px;
 }
+
 

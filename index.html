@@ -13,62 +13,64 @@
 
 <body>
     <header>
-        <nav class="header">
-            <ul class="list1">
-                <li id="#nav-to-about" class="navbar">About Me</li>
-                <li id="#nav-to-skill" class="navbar">Skill Set</li>
-                <li id="#nav-to-proj" class="navbar">Projects</li>
-                <li id="#nav-to-contact" class="navbar">Contact</li>
+        <h1 class="h1">Daniel Phan</h1>
+        <nav>
+            <ul class="nav">
+                <li class="nav-text">
+                    <a href="#nav-to-about">About Me</a>
+                </li>
+                <li class="nav-text">
+                    <a href="#nav-to-skill">Projects</a>
+                </li>
+                <li class="nav-text">
+                    <a href="#nav-to-proj">Skill Set</a>
+                </li>
+                <li class="nav-text">
+                    <a href="#nav-to-contact">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
         <article>
-            <section>
-            <h1 class="h1">Daniel Phan<br><span id="span">Web Developer</span></h1>
+            <img class="img1" src="./assets/images/Capture.PNG">
             <hr>
-                <img src="./assets/images/website-profile-pic.png" alt="Profile Pic" id="profile-pic">
-                <h2 id="nav-to-about" class="h2style">About Me:</h2>
-                <p>
-                    Hello, my name is Daniel Phan. I'm currently attending a<br> bootcamp for coding, to explore my
-                    creativity in the<br> tech industry. I've always had a knack for building<br> something and
-                    watch it come to life, as I <br>graduated with a bachelor's in Mechanical Engineering. <br>I
-                    love problem solving and finding ways to make things<br> better.
-                </p>
-            <hr>
-            </section>
-            
-
             <section>
-                <h2 id="nav-to-proj" class="h2style">Projects:</h2>
-                <p>
-                    Feel free to take a look at my latest projects here. [add link here]<br>
-                    <img class="imgproj1"
-                        src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/08/html-cheat-sheet.jpg">
-                    <img class="imgproj2" src="https://cdn.lynda.com/course/504266/504266-637347255094291567-16x9.jpg">
-                </p>
+                <div class="div1">
+                    <img class="img2" src="./assets/images/website-profile-pic.png" alt="Profile Pic">
+                    <h2 id="nav-to-about" class="h2-about-me">About Me:</h2>
+                        <p class="p-about-me">
+                            Hello, my name is Daniel Phan. I'm currently attending a bootcamp for coding, to explore my
+                            creativity in the tech industry. I've always had a knack for building something and
+                            watch it come to life, as I graduated with a bachelor's in Mechanical Engineering. I love problem solving and finding ways to make things better. 
+                        </p>
+                </div>
+                <hr id="hr">
+                <div class="div2">
+                    <img class="img3" src="https://images.unsplash.com/photo-1452457750107-cd084dce177d?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxNjUyMTZ8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
+                    <h2 id="nav-to-skill" class="h2-skill-set">Skill Set:</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                </div>
             </section>
 
-            <div class="div3">
+            <div>
                 <section>
-                    <h2 id="nav-to-skill" class="h2style">Skill Set:</h2>
+                    <h2 id="nav-to-proj">Projects:</h2>
                     <p>
-                        As I begin my journey into becoming a full-stack developer, here's a list of languages that I'm
-                        proficient in:
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+                        Feel free to take a look at my latest projects here.<br>
+                    
                     </p>
                 </section>
             </div>
 
             <section>
-                <div class="contact">
-                    <h2 id="nav-to-contact" class="h2style">Contact:</h2>
-                    <p>
+                <div>
+                    <h2 id="nav-to-contact">Contact</h2>
                     <form>
                         <label for="fname">First Name</label><br>
                         <input type="text"><br>
@@ -79,7 +81,6 @@
                         <label for="email">Email</label><br>
                         <input type="text"><br>
                     </form>
-                    </p>
                 </div>
             </section>
 
