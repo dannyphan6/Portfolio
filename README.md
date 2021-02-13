@@ -11,6 +11,6 @@ For this activity, we're building a responsive portfolio that showcases our work
 ![Portfolio](./assets/images/Top_Portfolio.png)
 ![Portfolio](./assets/images/Bottom_Portfolio.png)
 
-Feel free to take a look at my portfolio here: [Portfolio]()
+Feel free to take a look at my portfolio here: [Portfolio](https://dannyphan6.github.io/Portfolio/)
 
 
