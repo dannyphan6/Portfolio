@@ -1,33 +1,32 @@
-/* Style applies to the whole header */
+/* Header Style*/
 header {
-    background: rgb(66, 64, 64);
-    width: 100%;
-    color: beige;
-    font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
     display: flex;
     justify-content: space-between;
+    background: rgb(66, 64, 64);
+    color: beige;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    width: 100%;
     padding: 20px 0px;
 }
+.h1 {
+    font-size: 50px;
+    margin-left: 10px;
+}
+/* END */
 
+/* Section's Font */
 section {
     font-family: 'Quicksand', sans-serif;
 }
+/* END */
 
-.h1 {
-    font-size: 50px;
-    position: relative;
-    margin-left: 10px;
-}
-
-/* Style applies to the list as a whole  */
+/* Navigation Bar Style */ 
 .nav {
     display: flex;
     justify-content: space-between;  
-    
 }
 
-/* Style applies to the navigation text  */
 .nav-text {
     position: relative;
     top: 10px;
@@ -44,29 +43,33 @@ a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
+/* END */
 
+/* Nav Bar Photo */
 .img1 {
     width: 100%;
 }
+/* END */
 
+/* Horizontal Line Break */
 hr {
     border-top: 1px solid rgb(66, 64, 64);
     width: 60.5%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
+/* END */
 
+/* About Me Styles */
 .div1 {
     display: flex;
-    justify-content: center;
     border-radius: 10px;
-    height: 200px;
+    height: 300px;
     width: 1055px;
     background-color: rgb(66, 64, 64);
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    
 }
 
 .img2 {
@@ -76,70 +79,372 @@ hr {
 
 .h2-about-me {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 8px;
-    font-size: 40px;
+    justify-content: center;
     color: beige;
+    font-size: 40px;
+    margin-top: 8px;
+    margin-left: -250px;
 }
 
 .p-about-me {
-    color: beige;
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 10px;
-    line-height: 25px;
+    justify-content: center;
+    color: beige;
     font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 175px;
+    margin-right: 25px;
 }
+/* END */
 
+/* Horizontal Line Break */
 #hr {
     border-top: 1px solid rgb(66, 64, 64);
     width: 61%;
     margin: 0 auto;
     margin-top: 14px;
 }
+/* END */
 
+/* Project Styles */
 .div2 {
     display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    height: 200px;
-    width: 1055px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background-color: rgb(66, 64, 64);
+    border-radius: 10px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    
+    height: 1000px;
+    width: 1055px;
 }
 
-.img3 {
-    border-radius: 50%;
-    margin: 35px;
-    
-}
-
-.h2-skill-set {
+.h2-proj {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 8px;
-    font-size: 40px;
+    justify-content: center;
     color: beige;
+    font-size: 40px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-form {
-    margin-top: 5px;
+.div3 {
+    width: 95%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.first-img {
+    position: relative;
+    margin-top: -10px;
+    border: 2px solid rgb(156, 153, 153);
+    border-radius: 15px;
+    width: 100%;
+}
+
+#react {
+    position: absolute;
+    bottom: -500px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    opacity: .7;
+    background-color: darkgrey;
+}
+
+#react:hover {
+    cursor: pointer;
+    text-decoration: bold;
+    border: 4px solid darkgrey;
+    box-shadow: inset 0 0 50px beige;
+    font-size: 30px;
+    opacity: 1;
+}
+
+.div4, .div5, .div6 {
+    width: 30%;
+    border-radius: 15px;
+}
+
+.three-imgs {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(156, 153, 153);
+}
+
+#box {
+    position: absolute;
+    bottom: -740px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: darkgrey;
+    border-radius: 5px;
+    opacity: .7;
+}
+
+#box:hover {
+    border: 4px solid darkgrey;
+    box-shadow: inset 0 0 50px beige;
+    text-decoration: bold;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 1;
+}
+/* END */
+
+/* Footer Styles */
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 25px;
+    color: beige;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: 50px;
+    background: rgb(66, 64, 64);
+}
+
+h3 {
     margin-left: 10px;
-    border-style: double;
-    border-width: 4px;
-    width: 215px;
+    font-size: 50px;
 }
 
-form label, input {
-    margin: 5px 10px;
-    padding: 10px;
+.nav-footer {
+    display: flex;
+    justify-content: flex-end;
 }
 
+.nav-footer-text {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* END */
+
+/* Media Querie @ 1080px */
+@media screen and (max-width: 1080px) {
+    header {
+       font-size: 18px;
+       padding: 8px 0px;
+    }
+
+    .h1 {
+        font-size: 28px;
+        margin-top: 0px;
+    }
+
+    .nav-text {
+        top: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    hr {
+        width: 89%;
+        margin-top: 10px;
+    }
+    
+    .div1 {
+        height: 225px;
+        width: 875px;
+    }
+
+    .img2 {
+        max-width: 350px;
+        max-height: 175px;
+        margin: 25px;
+    }
+
+    .h2-about-me {
+        font-size: 28px;
+        margin-top: 6px;
+        margin-left: -195px;
+    }
+
+    .p-about-me {
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 165px;
+        margin-top: 10px;
+    }
+
+    #hr {
+        width: 89%;
+    }
+
+    .div2 {
+        width: 875px;
+        height: 670px;
+    }
+
+    .h2-proj {
+        font-size: 28px;
+        margin-top: 6px;
+    }
+
+    .div3 {
+        margin-bottom: 0px;
+        margin-top: 170px;
+    }
+
+    .first-img {
+        max-width: 828px;
+        max-height: 400px;
+        margin-top: -175px;
+        margin-bottom: 20px;
+    }
+
+    #react {
+        font-size: 18px;
+        bottom: -190px;
+        padding: 15px 30px;
+    }
+
+    #react:hover {
+        font-size: 22px;
+    }
+    
+    .three-imgs {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #box {
+        font-size: 18px;
+        bottom: -405px;
+        padding: 7.5px 15px;
+    }
+
+    #box:hover {
+        font-size: 22px;
+    }
+
+    footer {
+        padding: 8px 0px;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .nav-footer-text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+/* END */
+
+/* Media Queries @ 768px */
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 13px;
+        padding: 6px 0px;
+     }
+
+     .h1 {
+        font-size: 18px;
+    }
+
+    .nav-text {
+        top: 3px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    hr {
+        width: 82%;
+    }
+
+    .div1 {
+        height: 150px;
+        width: 622px;
+    }
+
+    .h2-about-me {
+        font-size: 18px;
+        margin-top: 6px;
+        margin-left: -134px;
+    }
+
+    .p-about-me {
+        font-size: 13px;
+        margin-left: 130px;
+        line-height: 20px;
+        margin-top: 3px;
+    }
+
+    #hr {
+        width: 82%;
+    }
+
+    .div2 {
+        width: 622px;
+        height: 390px;
+    }
+
+    .h2-proj {
+        font-size: 18px;
+    }
+
+    .div3 {
+        margin-top: 130px;
+        margin-bottom: 0px;
+    }
+
+    .first-img {
+        max-width: 588px;
+        max-height: 200px;
+        margin-bottom: -20px;
+    }
+
+    #react {
+        font-size: 13px;
+        bottom: 140px;
+        padding: 10px 20px;
+    }
+
+    #react:hover {
+        font-size: 18px;
+    }
+
+    .three-imgs {
+        width: 100%;
+        margin-bottom: -20px;
+    }
+
+    #box {
+        bottom: -10px;
+        padding: 7.5px 15px;
+        font-size: 13px;
+    }
+
+    #box:hover {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 6px 0px;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .nav-footer-text {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 3px;
+    }
+}
+/* END */
 
