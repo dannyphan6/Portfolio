@@ -93,7 +93,7 @@ hr {
     font-size: 20px;
     line-height: 30px;
     margin-top: 20px;
-    margin-left: 175px;
+    margin-left: 163px;
     margin-right: 25px;
 }
 /* END */
@@ -269,8 +269,8 @@ h3 {
 
     .p-about-me {
         font-size: 18px;
-        line-height: 28px;
-        margin-left: 165px;
+        line-height: 24px;
+        margin-left: 152px;
         margin-top: 10px;
     }
 
@@ -302,7 +302,7 @@ h3 {
 
     #react {
         font-size: 18px;
-        bottom: -190px;
+        bottom: -100px;
         padding: 15px 30px;
     }
 
@@ -317,7 +317,7 @@ h3 {
 
     #box {
         font-size: 18px;
-        bottom: -405px;
+        bottom: -305px;
         padding: 7.5px 15px;
     }
 
@@ -376,8 +376,8 @@ h3 {
 
     .p-about-me {
         font-size: 13px;
-        margin-left: 130px;
-        line-height: 20px;
+        margin-left: 121px;
+        line-height: 16px;
         margin-top: 3px;
     }
 
@@ -407,7 +407,7 @@ h3 {
 
     #react {
         font-size: 13px;
-        bottom: 140px;
+        bottom: 260px;
         padding: 10px 20px;
     }
 
@@ -421,7 +421,7 @@ h3 {
     }
 
     #box {
-        bottom: -10px;
+        bottom: 115px;
         padding: 7.5px 15px;
         font-size: 13px;
     }
