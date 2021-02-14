@@ -302,7 +302,7 @@ h3 {
 
     #react {
         font-size: 18px;
-        bottom: -100px;
+        bottom: -20px;
         padding: 15px 30px;
     }
 
@@ -317,7 +317,7 @@ h3 {
 
     #box {
         font-size: 18px;
-        bottom: -305px;
+        bottom: -225px;
         padding: 7.5px 15px;
     }
 
@@ -407,7 +407,7 @@ h3 {
 
     #react {
         font-size: 13px;
-        bottom: 260px;
+        bottom: 330px;
         padding: 10px 20px;
     }
 
@@ -421,7 +421,7 @@ h3 {
     }
 
     #box {
-        bottom: 115px;
+        bottom: 195px;
         padding: 7.5px 15px;
         font-size: 13px;
     }
